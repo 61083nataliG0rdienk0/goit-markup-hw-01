@@ -31,7 +31,7 @@ body {
   font-family: 'Raleway', normal;
   font-size: 26px;
 }
-.studio {
+.studio-dark {
   color: #000;
   font-family: 'Raleway', normal;
   font-size: 26px;
@@ -156,6 +156,12 @@ body {
   background-color: #2f303a;
 }
 
+.studio-light {
+  color: #ffffff;
+  font-family: 'Raleway', normal;
+  font-size: 26px;
+}
+
 .adress-link {
   font-size: 14px;
   line-height: 1.17;
@@ -172,4 +178,40 @@ body {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+/*-----------projects-----------*/
+
+.projects {
+  visibility: hidden;
+}
+
+.projects-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-title-color);
+}
+
+.projects-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: #f5f4fa;
+  color: var(--primary-title-color);
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--accent-color);
+  color: var(--second-title-color);
 }
