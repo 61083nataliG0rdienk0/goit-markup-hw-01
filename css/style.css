@@ -1,14 +1,19 @@
 :root {
-  --header-color: #212121;
   --primary-text-color: #757575;
   --line-color: #ececec;
   --primary-title-color: #212121;
   --second-title-color: #ffffff;
   --accent-color: #2196f3;
+  --order-color: #2f303a;
+  --second-accent-color: #188ce8;
+  --footer-color: #2f303a;
+  --background-color: #f5f4fa;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  color: #212121;
 }
 
 .list {
@@ -26,14 +31,15 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.web {
+
+.header-logo {
   color: var(--accent-color);
-  font-family: 'Raleway', normal;
+  font-family: 'Raleway', sans-serif;
   font-size: 26px;
 }
 .studio-dark {
   color: #000;
-  font-family: 'Raleway', normal;
+  font-family: 'Raleway', sans-serif;
   font-size: 26px;
 }
 
@@ -65,7 +71,7 @@ body {
 
 /*--эффективные решения для вашего бизнеса--*/
 .order {
-  background-color: #2f303a;
+  background-color: var(--order-color);
 }
 .order-text {
   font-weight: 900;
@@ -88,7 +94,7 @@ body {
 
 .order-button:focus,
 .order-button:hover {
-  background-color: #188ce8;
+  background-color: var(--second-accent-color);
 }
 
 /*--особенности--*/
@@ -123,7 +129,7 @@ body {
 
 /*--наша команда--*/
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--background-color);
 }
 
 .team-title {
@@ -136,15 +142,12 @@ body {
 
 .team-member {
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--primary-title-color);
 }
 
 .team-profession {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
@@ -153,12 +156,12 @@ body {
 /*--Футер--*/
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--footer-color);
 }
 
 .studio-light {
-  color: #ffffff;
-  font-family: 'Raleway', normal;
+  color: var(--second-title-color);
+  font-family: 'Raleway', sans-serif;
   font-size: 26px;
 }
 
@@ -194,7 +197,6 @@ body {
 }
 
 .projects-text {
-  font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
@@ -202,11 +204,10 @@ body {
 
 .button {
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
-  background-color: #f5f4fa;
+  background-color: var(--background-color);
   color: var(--primary-title-color);
 }
 
