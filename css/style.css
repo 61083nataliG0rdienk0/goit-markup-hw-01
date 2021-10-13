@@ -51,6 +51,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--header-color);
 }
+
 .menu-list:hover,
 .menu-list:focus {
   color: var(--accent-color);
