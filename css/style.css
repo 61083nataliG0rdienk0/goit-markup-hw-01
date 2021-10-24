@@ -14,7 +14,9 @@ p,
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -58,6 +60,8 @@ body {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+  padding-left: 15px;
+  width: 1200px;
 }
 
 .header-nav {
@@ -77,6 +81,7 @@ body {
   font-size: 26px;
   margin-right: 93px;
 }
+
 .studio-dark {
   color: #000;
   font-family: 'Raleway', sans-serif;
@@ -147,6 +152,8 @@ body {
   margin-left: 252px;
   align-items: center;
   color: var(--second-title-color);
+  width: 696px;
+  height: 120px;
 }
 
 .order-button {
@@ -221,6 +228,7 @@ body {
 .activities {
   padding-top: 94px;
   padding-bottom: 94px;
+  width: 1200px;
 }
 
 .activities-list {
@@ -247,6 +255,7 @@ body {
 .team {
   background-color: var(--background-color);
   padding-top: 94px;
+  width: 1200px;
 }
 
 .team-list {
@@ -256,12 +265,14 @@ body {
 }
 
 .team-title {
+  font-family: inherit;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--primary-title-color);
-  padding-left: 668px;
+  text-align: center;
+
   padding-bottom: 50px;
 }
 
@@ -309,6 +320,8 @@ body {
 .adress {
   padding-top: 20px;
   font-style: normal;
+  width: 231px;
+  height: 81px;
 }
 
 .adress-link {
