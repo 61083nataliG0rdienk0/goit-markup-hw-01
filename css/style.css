@@ -47,6 +47,12 @@ body {
   color: #212121;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  width: 1200px;
+}
+
 .list {
   list-style: none;
 }
@@ -184,10 +190,6 @@ body {
 
 /*--особенности--*/
 
-.features {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 .features-list {
   display: flex;
   padding-left: 15px;
@@ -225,12 +227,6 @@ body {
 
 /*--чем мы занимаемся--*/
 
-.activities {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  width: 1200px;
-}
-
 .activities-list {
   display: flex;
   padding-left: 15px;
@@ -252,10 +248,8 @@ body {
 
 /*--наша команда--*/
 
-.team {
+.section-team {
   background-color: var(--background-color);
-  padding-top: 94px;
-  width: 1200px;
 }
 
 .team-list {
@@ -272,7 +266,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-title-color);
   text-align: center;
-
   padding-bottom: 50px;
 }
 
@@ -351,17 +344,43 @@ body {
   visibility: hidden;
 }
 
+.projects-conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-top: auto;
+}
+
 .projects-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-title-color);
+  padding-left: 24px;
+  padding-top: 20px;
+  text-align: start;
+}
+
+.projects-list {
+  font-family: inherit;
+  display: flex;
+  padding-left: 295px;
+  padding-right: 294px;
+  padding-bottom: 50px;
+  justify-content: center;
+}
+
+.projects-item:not(:last-child) {
+  margin-right: 8px;
 }
 
 .projects-text {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  padding-left: 24px;
+  padding-bottom: 20px;
+  text-align: start;
 }
 
 .button {
@@ -387,4 +406,21 @@ body {
 .button.active-button :focus {
   background-color: var(--accent-color);
   color: var(--second-title-color);
+}
+
+.projects-navigation {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects-icons {
+  width: 370px;
+  height: 404px;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
+.projects-icons:not(:last-child) {
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
