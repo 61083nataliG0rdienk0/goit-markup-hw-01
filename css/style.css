@@ -309,7 +309,6 @@ body {
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 15px;
   background-color: var(--footer-color);
 }
 
